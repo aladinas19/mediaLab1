@@ -18,13 +18,17 @@
 
 <br><br>
 
-	<button type="button" id="playBtn">Play</button>
-	<button type="button" id="pauseBtn">Pause</button>
-	<button type="button" id="stopBtn">Stop</button>
-	<button type="button" id="forwardBtn">Jump to 5 sec forward</button>
-	<button type="button" id="backwardBtn">Jump to 5 sec backwards</button>	
+<div class="controls">
+    <button id="playBtn">Play</button>
+    <button id="pauseBtn">Pause</button>
+    <button id="stopBtn">Stop</button>
+    <button id="forwardBtn">Jump to 5 sec forward</button>
+    <button id="backwardBtn">Jump to 5 sec backwards</button>
+</div>
 	
 	<p>Playlist</p>
+
+  <button type="button" id="shuffleBtn">Shuffle</button>
 	
 	<input type="text" id="url1" size="100" value="https://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/bipbop_16x9_variant.m3u8">
   <button type="button" id="load1">Load</button><br>
@@ -34,7 +38,7 @@
   <button type="button" id="load3">Load</button><br>
 	<input type="text" id="url4" size="100" value="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8">
   <button type="button" id="load4">Load</button><br>
-	<button type="button" id="shuffleBtn">Shuffle</button>
+
 
   <script src="js/hls.min.js"></script>
   <script src="js/control.js"></script>
